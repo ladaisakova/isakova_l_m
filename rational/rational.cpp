@@ -4,7 +4,7 @@
 
 Rational& Rational::operator+=(const Rational& rhs)
 {
-	num_ = num_*rhs.denum_+rhs.num_*denum_;
+	num_ = num_*rhs.denum_ + rhs.num_*denum_;
 	denum_ = denum_*rhs.denum_;
 	return *this;
 }

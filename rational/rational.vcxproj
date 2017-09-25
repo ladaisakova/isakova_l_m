@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5D027D7D-E076-447A-95E9-55E393CED826}</ProjectGuid>
+    <ProjectGuid>{10A97887-EAA7-4454-913D-A164A726D787}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>rational</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
