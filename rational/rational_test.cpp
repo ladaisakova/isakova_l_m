@@ -17,65 +17,36 @@ bool testParse(const std::string& str)
 	}
 	return istrm.good();
 }
-int nod(int a, int b)
-{
-	int c, d;
-	while (a && b)
-		if (a >= b)
-		{
-			c = a%b;
-			if (c == 0) { a /= b;  b /= b; break; }
-			d = b%c;
-			if (d == 0) { a /= c; b /= c; break; }
-		}
-		else {
-			c = b%a;
-			if (c == 0) { b /= a;  a /= a; break; }
-			d = a%c;
-			if (d == 0) { a /= c; b /= c; break; }
-		}
-		return a & b;
-}
-//Rational bigger(Rational a, Rational b)
-//{
-//	a.num_ = a.num_*b.denum_;
-//	b.num_ = b.num_*a.denum_;
-//	if (a.num_ == b.num_) { cout << "numbers equal" << endl; break; }
-//	if (a.num_ > b.num_) { a.num_ /= b.denum_; cout << a << endl; }
-//	else { b.num_ /= a.denum_; cout << b << endl; }
-//}
-//Rational less1(Rational a, Rational b)
-//{
-//	a.num_ = a.num_*b.denum_;
-//	b.num_ = b.num_*a.denum_;
-//	if (a.num_ == b.num_) { cout << "numbers equal" << endl; break; }
-//	if (a.num_ < b.num_) { a.num_ /= b.denum_; cout << a << endl; }
-//	else { b.num_ /= a.denum_; cout << b << endl; }
-//}
+
+
 int main()
 {
 	using namespace std;
 	Rational r(1, 2);
-	/*nod(r.num_, r.denum_);*/
+	r.Correct(r);
 	cout << r << endl;
 	r += Rational(1, 4);
-	/*nod(r.num_, r.denum_);*/
+	r.Correct(r);
 	cout << r << endl;
 	r -= Rational(2, 3);
-	/*nod(r.num_, r.denum_);*/
+	r.Correct(r);
 	cout << r << endl;
 	r *= Rational(3, 5);
-	/*nod(r.num_, r.denum_);*/
+	r.Correct(r);
 	cout << r << endl;
 	r /= Rational(7, 9);
-	/*nod(r.num_, r.denum_);*/
+	r.Correct(r);
 	cout << r << endl;
-	/*Rational s(2, 3);
+	Rational s(4, 3);
 	Rational k(5, 6);
-	bigger(s, k);
-	Rational m(2, 7);
-	Rational l(2, 7);
-	less1(m, l);*/
+	bool h = k > Rational(3, 8);
+	cout << h << endl;
+	bool n = s < Rational(5, 6);
+	cout << n << endl;
+	bool f = s == k;
+	cout << f << endl;
+	bool w = k != Rational(1, 6);
+	cout << w << endl;
 	Rational a(1, 8);
 	Rational* b(&a);
 	Rational c(*b);
