@@ -1,0 +1,3 @@
+﻿  complex.cpp
+complex_test.obj : error LNK2019: unresolved external symbol "public: struct Complex & __thiscall Complex::operator^=(struct Complex const &)" (??_6Complex@@QAEAAU0@ABU0@@Z) referenced in function _main
+C:\Users\Ольга\Desktop\2 курс\ООП\isakova_l_m\isakova_l_m\complex\Debug\complex.exe : fatal error LNK1120: 1 unresolved externals

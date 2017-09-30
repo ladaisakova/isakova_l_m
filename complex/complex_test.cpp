@@ -37,6 +37,36 @@ int main()
 	testParse("{8.9,9}");
 	testParse("{8.9, 9}");
 	testParse("{8.9, 9");
+	z += 2.0;
+	cout << z << endl;
+	z -= 3.1;
+	cout << z << endl;
+	z += 1;
+	cout << z << endl;
+	z -= 4;
+	cout << z << endl;
+	z *= 3;
+	cout << z << endl;
+	z /= 2;
+	cout << z << endl;
+	z += Complex(2);
+	cout << z << endl;
+	z += Complex(3.4);
+	cout << z << endl;
+	z += Complex(-1);
+	cout << z << endl;
+	z += Complex(-2.8);
+	cout << z << endl;
+	z ^= Complex(3);
+	char* string = "z=";
+	char* string1 = "*(cos";
+	char* string2 = "+i*sin";
+	printf("%s", string);
+	printf("%lf", m);
+	printf("%s", string1);
+	printf("%lf", a);
+	printf("%s", string2);
+	printf("%lf", a);
 	return 0;
 }
 std::ostream& Complex::writeTo(std::ostream& ostrm) const
