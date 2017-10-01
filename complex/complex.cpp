@@ -84,17 +84,27 @@ Complex operator+(const double k, const Complex& rhs)
 	sum += k;
 	return sum;
 }
-Complex operator^=(const Complex& rhs, const int k, const double t)
+Complex& Complex::operator^=(const int k)
 {
+	Complex result;
 	double x;
-	x = sqrt((rhs.re)*(rhs.re) + (rhs.im)*(rhs.im));
+	x = sqrt((re)*(re)+(im)*(im));
 	double f;
-	f = atan(rhs.im / rhs.re);
+	f = atan(im / re);
 	double m;
 	m = pow(x, k);
-	double a;
-	a = k*f;
-	return rhs, m, a;
+	result.re = m*cos(f*k);
+	result.im = m*sin(f*k);
+	return result;
 }
+//Complex sopr_(const Complex& rhs)
+//{
+//	Complex result;
+//	result.re = rhs.re;
+//	result.im = -rhs.re;
+//	return result;
+//}
+
+
 
 

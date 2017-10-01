@@ -19,8 +19,9 @@ struct Complex {
 	Complex& operator*=(const double rhs);
 	Complex& operator/=(const double rhs);
 	Complex& operator/=(const Complex& rhs);
-	Complex& operator^=(const Complex& rhs);
-	
+	Complex& operator^=(const int k);
+	//Complex sopr_(const Complex& rhs);
+
 	std::ostream& writeTo(std::ostream& ostrm) const;
 	std::istream& readFrom(std::istream& istrm);
 
