@@ -41,6 +41,7 @@ Rational& Rational::operator+=(const Rational& rhs)
 {
 	num_ = num_*rhs.denum_ + rhs.num_*denum_;
 	denum_ = denum_*rhs.denum_;
+	Correct(*this);
 	return *this;
 }
 
@@ -48,6 +49,7 @@ Rational& Rational::operator-=(const Rational& rhs)
 {
 	num_ = num_*rhs.denum_ - rhs.num_*denum_;
 	denum_ = denum_*rhs.denum_;
+	Correct(*this);
 	return *this;
 }
 Rational operator-(const Rational& lhs, const Rational& rhs)
@@ -63,6 +65,7 @@ Rational& Rational::operator*=(const Rational& rhs)
 {
 	num_ = rhs.num_*num_;
 	denum_ = rhs.denum_*denum_;
+	Correct(*this);
 	return *this;
 }
 
@@ -70,6 +73,7 @@ Rational& Rational::operator/=(const Rational& rhs)
 {
 	num_ = num_*rhs.denum_;
 	denum_ = rhs.num_*denum_;
+	Correct(*this);
 	return *this;
 }
 
@@ -87,5 +91,90 @@ bool Rational::operator<(const Rational& rhs)
 }
 bool Rational::operator==(const Rational& rhs)
 {
-	return(num_ *rhs.denum_== rhs.num_*denum_);
+	return(num_ *rhs.denum_ == rhs.num_*denum_);
+}
+Rational& Rational::operator^(const int k)
+{
+	Rational result;
+	result.num_ = pow(num_, k);
+	result.denum_ = pow(denum_, k);
+	Correct(result);
+	return result;
+}
+Rational& Rational::operator+=(const double k)
+{
+	Rational b;
+	double a(k);
+	double t;
+	int i = 1;
+	double j = modf(a, &t);
+	while (j < 1 && j != 0)
+	{
+		a *= 10;
+		i *= 10;
+		j = modf(a, &t);
+	}
+	b = Rational(a, i);
+	num_ = num_*i + a*denum_;
+	denum_ = denum_*i;
+	Correct(*this);
+	return *this;
+}
+
+Rational& Rational::operator-=(const double k)
+{
+	Rational b;
+	double a(k);
+	double t;
+	int i = 1;
+	double j = modf(a, &t);
+	while (j < 1 && j != 0)
+	{
+		a *= 10;
+		i *= 10;
+		j = modf(a, &t);
+	}
+	b = Rational(a, i);
+	num_ = num_*i - a*denum_;
+	denum_ = denum_*i;
+	Correct(*this);
+	return *this;
+}
+Rational& Rational::operator*=(const double k)
+{
+	Rational b;
+	double a(k);
+	double t;
+	int i = 1;
+	double j = modf(a, &t);
+	while (j < 1 && j != 0)
+	{
+		a *= 10;
+		i *= 10;
+		j = modf(a, &t);
+	}
+	b = Rational(a, i);
+	num_ = a*num_;
+	denum_ = i*denum_;
+	Correct(*this);
+	return *this;
+}
+Rational& Rational::operator/=(const double k)
+{
+	Rational b;
+	double a(k);
+	double t;
+	int i = 1;
+	double j = modf(a, &t);
+	while (j < 1 && j != 0)
+	{
+		a *= 10;
+		i *= 10;
+		j = modf(a, &t);
+	}
+	b = Rational(a, i);
+	num_ = i*num_;
+	denum_ = a*denum_;
+	Correct(*this);
+	return *this;
 }

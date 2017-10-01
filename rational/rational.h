@@ -18,16 +18,20 @@ public:
 	void Correct(Rational& t);
 	~Rational() = default;
 	bool operator==(const Rational& rhs);
-	bool operator!=(const Rational& rhs)  { return !operator==(rhs); }
+	bool operator!=(const Rational& rhs) { return !operator==(rhs); }
 	Rational& operator+=(const Rational& rhs);
 	Rational& operator+=(const int rhs) { return operator+=(Rational(rhs)); }
 	Rational& operator-=(const Rational& rhs);
-	Rational& operator-=(const double rhs) { return operator-=(Rational(rhs)); }
 	Rational& operator*=(const Rational& rhs);
 	Rational& operator/=(const Rational& rhs);
+	Rational& operator^(const int k);
+	Rational& operator+=(const double k);
+	Rational& operator-=(const double k);
+	Rational& operator*=(const double k);
+	Rational& operator/=(const double k);
 	bool operator>(const Rational& rhs);
 	bool operator<(const Rational& rhs);
-	
+
 	std::ostream& writeTo(std::ostream& ostrm) const;
 	std::istream& readFrom(std::istream& istrm);
 
