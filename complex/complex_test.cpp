@@ -33,7 +33,7 @@ int main()
 	z /= 2.0;
 	cout << " z / 2.0 =" << z << endl;
 	z /= Complex(4.0, 3);
-	cout << " z / (4.0 + 3*i) ="<< z << endl;
+	cout << " z / (4.0 + 3*i) =" << z << endl;
 	testParse("{8.9,9}");
 	testParse("{8.9, 9}");
 	testParse("{8.9, 9");
@@ -62,14 +62,15 @@ int main()
 	cout << " z == (7 + 5*i) =" << w << endl;
 	Complex h(2, 8);
 	bool s = z != h;
-	cout << " z != (2 + 8*i) ="<< s << endl;
+	cout << " z != (2 + 8*i) =" << s << endl;
 	Complex t(4.0, 2);
 	Complex p(t ^= 2);
 	cout << " t^2 =" << p << endl;
 	Complex r(z ^= 3);
 	cout << "z^3=" << r << endl;
-	//r.sopr_;
-	//cout << r << endl;
+	Complex g;
+	g=r.sopr_();
+	cout <<"sopr for r = "<< g << endl;
 	return 0;
 }
 std::ostream& Complex::writeTo(std::ostream& ostrm) const

@@ -97,14 +97,13 @@ Complex& Complex::operator^=(const int k)
 	result.im = m*sin(f*k);
 	return result;
 }
-//Complex sopr_(const Complex& rhs)
-//{
-//	Complex result;
-//	result.re = rhs.re;
-//	result.im = -rhs.re;
-//	return result;
-//}
-
+Complex Complex::sopr_()
+{
+	Complex result;
+	result.re = re;
+	result.im = -im;
+	return result;
+}
 
 
 

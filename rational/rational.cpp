@@ -107,15 +107,15 @@ Rational& Rational::operator+=(const double k)
 	double a(k);
 	double t;
 	int i = 1;
-	double j = modf(a, &t);
-	while (j < 1 && j != 0)
+	double j= modf(a, &t);
+	while (j < 1 && j!=0)
 	{
 		a *= 10;
 		i *= 10;
-		j = modf(a, &t);
+		j=modf(a, &t);
 	}
 	b = Rational(a, i);
-	num_ = num_*i + a*denum_;
+	num_= num_*i + a*denum_;
 	denum_ = denum_*i;
 	Correct(*this);
 	return *this;

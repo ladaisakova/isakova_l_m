@@ -9,8 +9,8 @@ The output was:
 Microsoft (R) Build Engine ���ᨨ 14.0.25420.1
 (C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
 
-���ઠ ���� 25.09.2017 21:06:03.
-�஥�� "D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ ���� 05.10.2017 18:45:15.
+�஥�� "C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
 PrepareForBuild:
   �������� ��⠫��� "Debug\".
   �������� ��⠫��� "Debug\CompilerIdC.tlog\".
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
   ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-���ઠ �஥�� "D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ �஥�� "C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
 
 ���ઠ �ᯥ譮 �����襭�.
     �।�०�����: 0
     �訡��: 0
 
-����祭��� �६�: 00:00:03.36
+����祭��� �६�: 00:00:05.51
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 Microsoft (R) Build Engine ���ᨨ 14.0.25420.1
 (C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
 
-���ઠ ���� 25.09.2017 21:06:08.
-�஥�� "D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ ���� 05.10.2017 18:45:23.
+�஥�� "C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
 PrepareForBuild:
   �������� ��⠫��� "Debug\".
   �������� ��⠫��� "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,51 +74,395 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ���� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" 㤠�����.
   ���饭�� � "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-���ઠ �஥�� "D:\Visual Studio 2015\Projects\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ �஥�� "C:\Users\��죠\Desktop\2 ����\���\isakova_l_m\isakova_l_m\����� �����\CMakeFiles\3.9.3\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
 
 ���ઠ �ᯥ譮 �����襭�.
     �।�०�����: 0
     �訡��: 0
 
-����祭��� �६�: 00:00:02.22
+����祭��� �६�: 00:00:03.38
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2d85b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4cb8c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:11.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_2d85b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:28.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_4cb8c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2d85b.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2d85b.dir\Debug\cmTC_2d85b.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_4cb8c.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_4cb8c.dir\Debug\cmTC_4cb8c.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_2d85b.dir\Debug\cmTC_2d85b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_4cb8c.dir\Debug\cmTC_4cb8c.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d85b.dir\Debug\\" /Fd"cmTC_2d85b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cb8c.dir\Debug\\" /Fd"cmTC_4cb8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCCompiler.c"
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d85b.dir\Debug\\" /Fd"cmTC_2d85b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cb8c.dir\Debug\\" /Fd"cmTC_4cb8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_2d85b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_2d85b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_2d85b.lib" /MACHINE:X64  /machine:x64 cmTC_2d85b.dir\Debug\testCCompiler.obj
-  cmTC_2d85b.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_2d85b.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_4cb8c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_4cb8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_4cb8c.lib" /MACHINE:X64  /machine:x64 cmTC_4cb8c.dir\Debug\testCCompiler.obj
+  cmTC_4cb8c.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_4cb8c.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_2d85b.dir\Debug\cmTC_2d85b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_2d85b.dir\Debug\cmTC_2d85b.tlog\cmTC_2d85b.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_2d85b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_4cb8c.dir\Debug\cmTC_4cb8c.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_4cb8c.dir\Debug\cmTC_4cb8c.tlog\cmTC_4cb8c.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_4cb8c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.82
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f7ea8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:33.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_f7ea8.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f7ea8.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f7ea8.dir\Debug\cmTC_f7ea8.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_f7ea8.dir\Debug\cmTC_f7ea8.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7ea8.dir\Debug\\" /Fd"cmTC_f7ea8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7ea8.dir\Debug\\" /Fd"cmTC_f7ea8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_f7ea8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_f7ea8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_f7ea8.lib" /MACHINE:X64  /machine:x64 cmTC_f7ea8.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_f7ea8.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_f7ea8.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_f7ea8.dir\Debug\cmTC_f7ea8.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_f7ea8.dir\Debug\cmTC_f7ea8.tlog\cmTC_f7ea8.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_f7ea8.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.26
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_25105.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:38.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_25105.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_25105.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_25105.dir\Debug\cmTC_25105.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_25105.dir\Debug\cmTC_25105.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25105.dir\Debug\\" /Fd"cmTC_25105.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25105.dir\Debug\\" /Fd"cmTC_25105.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_25105.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_25105.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_25105.lib" /MACHINE:X64  /machine:x64 cmTC_25105.dir\Debug\testCXXCompiler.obj
+  cmTC_25105.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_25105.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_25105.dir\Debug\cmTC_25105.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_25105.dir\Debug\cmTC_25105.tlog\cmTC_25105.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_25105.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.48
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8bc7b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:43.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_8bc7b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8bc7b.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8bc7b.dir\Debug\cmTC_8bc7b.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_8bc7b.dir\Debug\cmTC_8bc7b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bc7b.dir\Debug\\" /Fd"cmTC_8bc7b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bc7b.dir\Debug\\" /Fd"cmTC_8bc7b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_8bc7b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_8bc7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_8bc7b.lib" /MACHINE:X64  /machine:x64 cmTC_8bc7b.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_8bc7b.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_8bc7b.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_8bc7b.dir\Debug\cmTC_8bc7b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_8bc7b.dir\Debug\cmTC_8bc7b.tlog\cmTC_8bc7b.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_8bc7b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.40
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8e3a4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:48.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_8e3a4.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8e3a4.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8e3a4.dir\Debug\cmTC_8e3a4.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_8e3a4.dir\Debug\cmTC_8e3a4.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e3a4.dir\Debug\\" /Fd"cmTC_8e3a4.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e3a4.dir\Debug\\" /Fd"cmTC_8e3a4.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_8e3a4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_8e3a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_8e3a4.lib" /MACHINE:X64  /machine:x64 cmTC_8e3a4.dir\Debug\feature_tests.obj
+  cmTC_8e3a4.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_8e3a4.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_8e3a4.dir\Debug\cmTC_8e3a4.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_8e3a4.dir\Debug\cmTC_8e3a4.tlog\cmTC_8e3a4.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_8e3a4.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.61
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7092b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:45:54.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_7092b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7092b.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7092b.dir\Debug\cmTC_7092b.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_7092b.dir\Debug\cmTC_7092b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7092b.dir\Debug\\" /Fd"cmTC_7092b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7092b.dir\Debug\\" /Fd"cmTC_7092b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_7092b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_7092b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_7092b.lib" /MACHINE:X64  /machine:x64 cmTC_7092b.dir\Debug\feature_tests.obj
+  cmTC_7092b.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_7092b.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_7092b.dir\Debug\cmTC_7092b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_7092b.dir\Debug\cmTC_7092b.tlog\cmTC_7092b.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_7092b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.47
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_11d98.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  05.10.2017 18:46:00.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_11d98.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_11d98.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_11d98.dir\Debug\cmTC_11d98.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_11d98.dir\Debug\cmTC_11d98.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11d98.dir\Debug\\" /Fd"cmTC_11d98.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11d98.dir\Debug\\" /Fd"cmTC_11d98.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_11d98.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_11d98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_11d98.lib" /MACHINE:X64  /machine:x64 cmTC_11d98.dir\Debug\feature_tests.obj
+  cmTC_11d98.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_11d98.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_11d98.dir\Debug\cmTC_11d98.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_11d98.dir\Debug\cmTC_11d98.tlog\cmTC_11d98.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_11d98.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
@@ -127,160 +471,6 @@ FinalizeBuildStatus:
 ‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.78
 
 
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aa227.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:15.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_aa227.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_aa227.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_aa227.dir\Debug\cmTC_aa227.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_aa227.dir\Debug\cmTC_aa227.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa227.dir\Debug\\" /Fd"cmTC_aa227.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa227.dir\Debug\\" /Fd"cmTC_aa227.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
-  
-  CMakeCCompilerABI.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_aa227.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_aa227.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_aa227.lib" /MACHINE:X64  /machine:x64 cmTC_aa227.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_aa227.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_aa227.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_aa227.dir\Debug\cmTC_aa227.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_aa227.dir\Debug\cmTC_aa227.tlog\cmTC_aa227.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_aa227.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.75
-
-
-Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dd16a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:19.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_dd16a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_dd16a.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_dd16a.dir\Debug\cmTC_dd16a.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_dd16a.dir\Debug\cmTC_dd16a.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd16a.dir\Debug\\" /Fd"cmTC_dd16a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd16a.dir\Debug\\" /Fd"cmTC_dd16a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  
-  testCXXCompiler.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_dd16a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_dd16a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_dd16a.lib" /MACHINE:X64  /machine:x64 cmTC_dd16a.dir\Debug\testCXXCompiler.obj
-  cmTC_dd16a.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_dd16a.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_dd16a.dir\Debug\cmTC_dd16a.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_dd16a.dir\Debug\cmTC_dd16a.tlog\cmTC_dd16a.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_dd16a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.57
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f2d9e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:22.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_f2d9e.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f2d9e.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f2d9e.dir\Debug\cmTC_f2d9e.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_f2d9e.dir\Debug\cmTC_f2d9e.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2d9e.dir\Debug\\" /Fd"cmTC_f2d9e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2d9e.dir\Debug\\" /Fd"cmTC_f2d9e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
-  
-  CMakeCXXCompilerABI.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_f2d9e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_f2d9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_f2d9e.lib" /MACHINE:X64  /machine:x64 cmTC_f2d9e.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_f2d9e.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_f2d9e.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_f2d9e.dir\Debug\cmTC_f2d9e.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_f2d9e.dir\Debug\cmTC_f2d9e.tlog\cmTC_f2d9e.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_f2d9e.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.50
-
-
-
-
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_87d7e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:26.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_87d7e.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_87d7e.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_87d7e.dir\Debug\cmTC_87d7e.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_87d7e.dir\Debug\cmTC_87d7e.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87d7e.dir\Debug\\" /Fd"cmTC_87d7e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87d7e.dir\Debug\\" /Fd"cmTC_87d7e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  
-  feature_tests.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_87d7e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_87d7e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_87d7e.lib" /MACHINE:X64  /machine:x64 cmTC_87d7e.dir\Debug\feature_tests.obj
-  cmTC_87d7e.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_87d7e.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_87d7e.dir\Debug\cmTC_87d7e.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_87d7e.dir\Debug\cmTC_87d7e.tlog\cmTC_87d7e.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_87d7e.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.25
-
-
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
@@ -339,231 +529,41 @@ FinalizeBuildStatus:
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Ольга/Desktop/2 курс/ООП/isakova_l_m/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_15a52.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_06650.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:29.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_15a52.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  05.10.2017 18:46:06.
+Џа®ҐЄв "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_06650.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_15a52.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_15a52.dir\Debug\cmTC_15a52.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_06650.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_06650.dir\Debug\cmTC_06650.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_15a52.dir\Debug\cmTC_15a52.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_06650.dir\Debug\cmTC_06650.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15a52.dir\Debug\\" /Fd"cmTC_15a52.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06650.dir\Debug\\" /Fd"cmTC_06650.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15a52.dir\Debug\\" /Fd"cmTC_15a52.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06650.dir\Debug\\" /Fd"cmTC_06650.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_15a52.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_15a52.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_15a52.lib" /MACHINE:X64  /machine:x64 cmTC_15a52.dir\Debug\feature_tests.obj
-  cmTC_15a52.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_15a52.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_06650.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_06650.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ћ«мЈ /Desktop/2 Єгаб/ЋЋЏ/isakova_l_m/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_06650.lib" /MACHINE:X64  /machine:x64 cmTC_06650.dir\Debug\feature_tests.obj
+  cmTC_06650.vcxproj -> C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_06650.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_15a52.dir\Debug\cmTC_15a52.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_15a52.dir\Debug\cmTC_15a52.tlog\cmTC_15a52.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_15a52.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_06650.dir\Debug\cmTC_06650.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_06650.dir\Debug\cmTC_06650.tlog\cmTC_06650.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "C:\Users\Ћ«мЈ \Desktop\2 Єгаб\ЋЋЏ\isakova_l_m\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_06650.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.35
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_49362.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:33.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_49362.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_49362.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_49362.dir\Debug\cmTC_49362.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_49362.dir\Debug\cmTC_49362.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49362.dir\Debug\\" /Fd"cmTC_49362.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49362.dir\Debug\\" /Fd"cmTC_49362.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  
-  feature_tests.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_49362.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_49362.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_49362.lib" /MACHINE:X64  /machine:x64 cmTC_49362.dir\Debug\feature_tests.obj
-  cmTC_49362.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_49362.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_49362.dir\Debug\cmTC_49362.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_49362.dir\Debug\cmTC_49362.tlog\cmTC_49362.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_49362.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.59
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/Visual Studio 2015/Projects/isakova_l_m/Новая папка/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_67f49.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  25.09.2017 21:06:37.
-Џа®ҐЄв "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_67f49.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_67f49.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_67f49.dir\Debug\cmTC_67f49.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_67f49.dir\Debug\cmTC_67f49.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67f49.dir\Debug\\" /Fd"cmTC_67f49.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.24215.1 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67f49.dir\Debug\\" /Fd"cmTC_67f49.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\feature_tests.cxx"
-  
-  feature_tests.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_67f49.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_67f49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Visual Studio 2015/Projects/isakova_l_m/Ќ®ў п Ї ЇЄ /CMakeFiles/CMakeTmp/Debug/cmTC_67f49.lib" /MACHINE:X64  /machine:x64 cmTC_67f49.dir\Debug\feature_tests.obj
-  cmTC_67f49.vcxproj -> D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\Debug\cmTC_67f49.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_67f49.dir\Debug\cmTC_67f49.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_67f49.dir\Debug\cmTC_67f49.tlog\cmTC_67f49.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "D:\Visual Studio 2015\Projects\isakova_l_m\Ќ®ў п Ї ЇЄ \CMakeFiles\CMakeTmp\cmTC_67f49.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:02.51
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:03.25
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

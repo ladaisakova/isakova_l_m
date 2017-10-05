@@ -39,14 +39,14 @@ int main()
 	bool f = r == Rational(4, 3);
 	cout << "r == 4/3 =" << f << endl;
 	bool w = r != Rational(1, 6);
-	cout << "r != 1/6 =" << w << endl;
+	cout << "r != 1/6 ="<< w << endl;
 	Rational a(1, 8);
 	Rational* b(&a);
 	Rational c(*b);
 	cout << "Ukazatel" << c << endl;
 	Rational p(4, 5);
 	Rational& u(p);
-	cout << "Ssylka" << u << endl;
+	cout << "Ssylka"  << u << endl;
 	testParse("{3/7}");
 	testParse("{0/ 9}");
 	testParse("{3/ 5");
