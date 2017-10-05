@@ -20,6 +20,12 @@ bool testParse(const std::string& str)
 int main()
 {
 	using namespace std;
+	testParse("{0.0, 0.0, 0.0}");
+	testParse("{1, 2,2, 3.0}");
+	bool n = Vec3d(0.8, 0.6, 1.9) == Vec3d(1.1, 7.4, 3.2);
+	bool k = Vec3d(1.2, 0.7, 6.4) != Vec3d(1.2, 0.7, 6.4);
+	cout << "(0.8, 0.6, 1.9) == (1.1, 7.4, 3.2) =" << n << endl;
+	cout << "(1.2, 0.7, 6.4) != (1.2, 0.7, 6.4) =" << k << endl;
 	Vec3d a(1.2, 3.1, 2.3);
 	cout << a << endl;
 	a+=Vec3d(0.1, 0.6, 0.0);
