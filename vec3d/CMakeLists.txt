@@ -1,2 +1,2 @@
-project(vec3d)
+project(isakova_l_m)
 add_executable(vec3d vec3d.cpp vec3d.h vec3d_test.cpp)

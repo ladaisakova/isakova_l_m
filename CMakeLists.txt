@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.9.3)
-project(complex)
-project(rational)
-project(vec3d)
+project(isakova_l_m)
 
 add_subdirectory(complex)
 add_subdirectory(rational)
 add_subdirectory(vec3d)
+add_subdirectory(vec3dt)
