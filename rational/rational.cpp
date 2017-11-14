@@ -1,6 +1,7 @@
 #include "rational.h"
 #include <iostream>
 
+double e = 0.0001;
 
 int nod(int& a, int& b)
 {
@@ -39,22 +40,22 @@ void Rational::correct(Rational& t)
 }
 Rational& Rational::operator+=(const Rational& rhs)
 {
-    num_ = num_*rhs.denum_ + rhs.num_*denum_;
-    denum_ = denum_*rhs.denum_;
+    num_ = num_ * rhs.denum_ + rhs.num_ * denum_;
+    denum_ = denum_ * rhs.denum_;
     correct(*this);
     return *this;
 }
 
 Rational& Rational::operator-=(const Rational& rhs)
 {
-    num_ = num_*rhs.denum_ - rhs.num_*denum_;
-    denum_ = denum_*rhs.denum_;
+    num_ = num_ * rhs.denum_ - rhs.num_ * denum_;
+    denum_ = denum_ * rhs.denum_;
     correct(*this);
     return *this;
 }
 Rational operator-(const Rational& lhs, const Rational& rhs)
 {
-    return Rational(lhs.num_*rhs.denum_ - rhs.num_*lhs.denum_, lhs.denum_ * rhs.denum_);
+    return Rational(lhs.num_ * rhs.denum_ - rhs.num_ * lhs.denum_, lhs.denum_ * rhs.denum_);
 }
 
 Rational operator*(const Rational& lhs, const Rational& rhs)
@@ -63,35 +64,35 @@ Rational operator*(const Rational& lhs, const Rational& rhs)
 }
 Rational& Rational::operator*=(const Rational& rhs)
 {
-    num_ = rhs.num_*num_;
-    denum_ = rhs.denum_*denum_;
+    num_ = rhs.num_ * num_;
+    denum_ = rhs.denum_ * denum_;
     correct(*this);
     return *this;
 }
 
 Rational& Rational::operator/=(const Rational& rhs)
 {
-    num_ = num_*rhs.denum_;
-    denum_ = rhs.num_*denum_;
+    num_ = num_ * rhs.denum_;
+    denum_ = rhs.num_ * denum_;
     correct(*this);
     return *this;
 }
 
 Rational operator/(const Rational& lhs, const Rational& rhs)
 {
-    return Rational(lhs.num_*rhs.denum_, lhs.denum_*rhs.num_);
+    return Rational(lhs.num_ * rhs.denum_, lhs.denum_ * rhs.num_);
 }
 bool Rational::operator>(const Rational& rhs)
 {
-    return((num_*rhs.denum_ - rhs.num_*denum_) >= 0.001);
+    return((num_ * rhs.denum_ - rhs.num_ * denum_) >= e);
 }
 bool Rational::operator<(const Rational& rhs)
 {
-    return((num_*rhs.denum_ < rhs.num_*denum_) <= -0.001);
+    return((num_ * rhs.denum_ < rhs.num_ * denum_) <= -e);
 }
 bool Rational::operator==(const Rational& rhs)
 {
-    return(abs(num_ *rhs.denum_ - rhs.num_*denum_)<0.001);
+    return(abs(num_ * rhs.denum_ - rhs.num_ * denum_)< e);
 }
 Rational& Rational::operator^(const int k)
 {
@@ -115,8 +116,8 @@ Rational& Rational::operator+=(const double k)
         j = modf(a, &t);
     }
     b = Rational(a, i);
-    num_ = num_*i + a*denum_;
-    denum_ = denum_*i;
+    num_ = num_ * i + a * denum_;
+    denum_ = denum_ * i;
     correct(*this);
     return *this;
 }
@@ -135,8 +136,8 @@ Rational& Rational::operator-=(const double k)
         j = modf(a, &t);
     }
     b = Rational(a, i);
-    num_ = num_*i - a*denum_;
-    denum_ = denum_*i;
+    num_ = num_ * i - a * denum_;
+    denum_ = denum_ * i;
     correct(*this);
     return *this;
 }
@@ -154,8 +155,8 @@ Rational& Rational::operator*=(const double k)
         j = modf(a, &t);
     }
     b = Rational(a, i);
-    num_ = a*num_;
-    denum_ = i*denum_;
+    num_ = a * num_;
+    denum_ = i * denum_;
     correct(*this);
     return *this;
 }
@@ -173,8 +174,8 @@ Rational& Rational::operator/=(const double k)
         j = modf(a, &t);
     }
     b = Rational(a, i);
-    num_ = i*num_;
-    denum_ = a*denum_;
+    num_ = i * num_;
+    denum_ = a * denum_;
     correct(*this);
     return *this;
 }

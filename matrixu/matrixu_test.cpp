@@ -18,7 +18,7 @@ int main()
     l.at(0, 0) = 1; l.at(0, 1) = 3; l.at(0, 2) = 0;
     l.at(1, 0) = 2; l.at(1, 1) = 7; l.at(1, 2) = 3;
     cout << " l = " << "\n" << l << endl;
-    Matrixu res(m*l);
+    Matrixu res(m * l);
     cout << " m * res = " << "\n" << res << endl;
     res *= 3;
     cout << " res * 3 = " << "\n" << res << endl;
@@ -28,10 +28,10 @@ int main()
 std::ostream& Matrixu::writeTo(std::ostream& ostrm) const
 {
     int t;
-    for (int i = 0; i < nRow_; i++)
+    for (int i = 0; i < nRow_; i += 1)
     {
         t = i;
-        for (int j = t*nCol_; j < nCol_+t*nCol_; j++)
+        for (int j = t * nCol_; j < nCol_ + t * nCol_; j += 1)
         {
             ostrm << pdata_[j] << " ";
         }

@@ -13,7 +13,7 @@ public:
     {
         size = 1;
         pdata_ = new int[size];
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < size; i += 1)
             pdata_[i] = 0;
     }
     ~Array() //деструктор
@@ -24,12 +24,12 @@ public:
     {
         size = a.size;
         pdata_ = new int[size];
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < size; i += 1)
             pdata_[i] = a.pdata_[i];
     }
     Array operator=(const Array& a) // оператор присваивания
     {
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < size; i += 1)
         {
             a.pdata_[i] = pdata_[i];
         }
@@ -39,7 +39,7 @@ public:
     {
         size = n;
         pdata_ = new int[size];
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < size; i += 1)
         {
             pdata_[i] = 0;
         }

@@ -6,7 +6,7 @@ int main()
 {
     using namespace std;
     Kvaternion m(2.0, 3.0, 1.0, 4.0);
-    cout << "m= " << m << endl;
+    cout << "m = " << m << endl;
     m += Kvaternion(2.0, 1.0, 7.0, 9.0);
     cout << " m += (2.0, 1.0, 7.0, 9.0) " << m << endl;
     m -= Kvaternion(1.0, 1.0, 4.0, 3.0);

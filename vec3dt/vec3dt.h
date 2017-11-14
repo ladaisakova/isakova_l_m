@@ -1,6 +1,6 @@
 #ifndef VEC3DT_H_1110
 #define VEC3DT_H_1110
-#include <iostream>
+#include <iosfwd>
 
 template<typename T>
 struct Vec3dt
@@ -72,20 +72,20 @@ bool Vec3dt<T>::operator!=(const Vec3dt<T>& rhs)
 template<typename T>
 double Vec3dt<T>::mod()
 {
-    return double(sqrt(x_*x_ + y_*y_ + z_*z_));
+    return double(sqrt(x_ * x_ + y_ * y_ + z_ * z_));
 }
 template<typename T>
 double Vec3dt<T>::skal(Vec3dt<T>& t)
 {
-    return double(t.x_*x_ + t.y_*y_ + t.z_*z_);
+    return double(t.x_ * x_ + t.y_ * y_ + t.z_ * z_);
 }
 template<typename T>
 Vec3dt<T> Vec3dt<T>::vec(Vec3dt<T>& t)
 {
     Vec3dt<T> vec;
-    vec.x_ = y_*t.z_ - z_*t.y_;
-    vec.y_ = z_*t.x_ - x_*t.z_;
-    vec.z_ = x_*t.y_ - y_*t.x_;
+    vec.x_ = y_ * t.z_ - z_ * t.y_;
+    vec.y_ = z_ * t.x_ - x_ * t.z_;
+    vec.z_ = x_ * t.y_ - y_ * t.x_;
     return vec;
 }
 template<typename T>
@@ -97,7 +97,7 @@ double Vec3dt<T>::ugol(Vec3dt<T>& t)
     h.x_ = x_; h.y_ = y_; h.z_ = z_;
     h1 = h.mod();
     sk = h.skal(t);
-    cos = sk / (t1*h1);
+    cos = sk / (t1 * h1);
     alfa = acos(cos);
     return alfa;
 }
@@ -148,9 +148,9 @@ Vec3dt<T>& Vec3dt<T>:: operator-=(const Vec3dt<T>& rhs)
 template<typename T>
 Vec3dt<T>& Vec3dt<T>:: operator*=(const int k)
 {
-    x_ = x_*k;
-    y_ = y_*k;
-    z_ = z_*k;
+    x_ = x_ * k;
+    y_ = y_ * k;
+    z_ = z_ * k;
     return *this;
 }
 template<typename T>
@@ -164,9 +164,9 @@ Vec3dt<T>& Vec3dt<T>:: operator/=(const int k)
 template<typename T>
 Vec3dt<T>& Vec3dt<T>:: operator*=(const double k)
 {
-    x_ = x_*k;
-    y_ = y_*k;
-    z_ = z_*k;
+    x_ = x_ * k;
+    y_ = y_ * k;
+    z_ = z_ * k;
     return *this;
 }
 template<typename T>

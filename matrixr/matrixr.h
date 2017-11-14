@@ -3,6 +3,12 @@
 
 #include <iostream>
 #include <cstddef>
+struct Object 
+{
+    ptrdiff_t nRow_;
+    ptrdiff_t nCol_;
+    int** pRows_;
+};
 class Matrixr
 {
 public:
@@ -11,16 +17,15 @@ public:
     Matrixr()
     {
         pRows_ = new int*[nRow_];
-        pRows_[0] = new int[nRow_*nCol_];
-        for (ptrdiff_t i = 0; i < nCol_-2; i++)
+        pRows_[0] = new int[nRow_ * nCol_];
+        for (ptrdiff_t i = 0; i < nCol_ - 2; i += 1)
         {
             pRows_[i + 1] = pRows_[i] + nCol_;
         }
     }
     ~Matrixr()
     {
-        for (ptrdiff_t i = 0; i < nRow_; i++)
-            delete[] pRows_[i];
+            delete[] pRows_[0];
         delete[] pRows_;
     }
     Matrixr(const Matrixr& a) //конструктор копирования
@@ -28,11 +33,12 @@ public:
         nCol_ = a.nCol_;
         nRow_ = a.nRow_;
         pRows_ = new int*[nRow_];
-        for (ptrdiff_t i = 0; i < nRow_; i++)
+     /*   Object s = { a.nRow_, a.nCol_, new int*[nRow_] };*/
+        for (ptrdiff_t i = 0; i < nRow_; i += 1)
             pRows_[i] = new int[nCol_];
-        for (ptrdiff_t i = 0; i < nRow_; i++)
+        for (ptrdiff_t i = 0; i < nRow_; i += 1)
         {
-            for (ptrdiff_t j = 0; j < nCol_; j++)
+            for (ptrdiff_t j = 0; j < nCol_; j += 1)
             {
                 pRows_[i][j] = a.pRows_[i][j];
             }
@@ -43,13 +49,14 @@ public:
         nCol_ = a.nCol_;
         nRow_ = a.nRow_;
         pRows_ = new int*[nRow_];
-        for (ptrdiff_t i = 0; i < nRow_; i++)
+        //Object s = { a.nRow_, a.nCol_, new int*[nRow_] };
+        for (ptrdiff_t i = 0; i < nRow_; i += 1)
         {
             pRows_[i] = new int[nCol_];
         }
-        for (ptrdiff_t i = 0; i < nRow_; i++)
+        for (ptrdiff_t i = 0; i < nRow_; i += 1)
         {
-            for (ptrdiff_t j = 0; j < nCol_; j++)
+            for (ptrdiff_t j = 0; j < nCol_; j += 1)
             {
                 pRows_[i][j] = a.pRows_[i][j];
             }
@@ -61,7 +68,8 @@ public:
         nRow_ = n;
         nCol_ = k;
         pRows_ = new int*[nRow_];
-        for (ptrdiff_t i = 0; i < nRow_; i++)
+ /*       Object s = { n, k, new int*[nRow_] };*/
+        for (ptrdiff_t i = 0; i < nRow_; i += 1)
         {
             pRows_[i] = new int[nCol_];
         }

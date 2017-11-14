@@ -31,7 +31,7 @@ Kvaternion operator-(const Kvaternion& s, const Kvaternion& r)
 }
 Kvaternion Kvaternion::operator*=(const Kvaternion& s)
 {
-    Kvaternion r(a_*s.a_ + b_*s.c_, a_*s.b_ + b_*s.d_, c_*s.a_ + d_*s.c_, c_*s.b_ + d_*s.d_);
+    Kvaternion r(a_ * s.a_ + b_ * s.c_, a_ * s.b_ + b_ * s.d_, c_ * s.a_ + d_ * s.c_, c_ * s.b_ + d_ * s.d_);
     a_ = r.a_;
     b_ = r.b_;
     c_ = r.c_;
@@ -79,7 +79,7 @@ Kvaternion operator/(const Kvaternion& s, const double q)
 }
 double Kvaternion::opredelitel()
 {
-    return(a_*d_ - b_*c_);
+    return(a_ * d_ - b_ * c_);
 }
 Kvaternion Kvaternion::transponirovanie()
 {
@@ -93,7 +93,7 @@ Kvaternion Kvaternion::inverse()
     Kvaternion t(a_, b_, c_, d_);
     double det = t.opredelitel();
     Kvaternion dopolnenie(d_, -b_, -c_, a_);
-    t = det*dopolnenie;
+    t = det * dopolnenie;
     a_ = t.a_; b_ = t.b_; c_ = t.c_; d_ = t.d_;
     return *this;
 }

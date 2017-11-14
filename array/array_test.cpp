@@ -25,7 +25,7 @@ int main()
 std::ostream& Array::writeTo(std::ostream& ostrm) const
 {
     ostrm << leftBrace;
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size - 1; i += 1)
     {
         ostrm << pdata_[i] << separator;
     }

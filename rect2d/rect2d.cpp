@@ -1,14 +1,14 @@
 #include "rect2d.h"
 #include <iostream>
 
-
+double e = 0.001;
 bool Rect2d::operator==(const Rect2d& rhs)
 {
-    return((abs(rhs.x_ - x_) < 0.001) && (abs(rhs.y_ - y_) < 0.001) && (abs(rhs.x1_ - x1_) < 0.001) && (abs(rhs.y1_ - y1_) < 0.001));
+    return((abs(rhs.x_ - x_) < e) && (abs(rhs.y_ - y_) < e) && (abs(rhs.x1_ - x1_) < e) && (abs(rhs.y1_ - y1_) < e));
 }
 bool Rect2d::operator!=(const Rect2d& rhs)
 {
-    return ((abs(rhs.x_ - x_) > 0.001) || (abs(rhs.y_ - y_) > 0.001) || (abs(rhs.x1_ - x1_) > 0.001) || (abs(rhs.y1_ - y1_) > 0.001));
+    return ((abs(rhs.x_ - x_) > e) || (abs(rhs.y_ - y_) > e) || (abs(rhs.x1_ - x1_) > e) || (abs(rhs.y1_ - y1_) > e));
 }
 double Rect2d::ploshad()
 {
@@ -28,7 +28,7 @@ double Rect2d::peresechenie(Rect2d& rhs)
     else { a = y_; }
     if (rhs.y1_ < y1_) { d = abs(a - rhs.y1_); }
     else { d = abs(a - y1_); }
-    per = c*d;
+    per = c * d;
     return per;
 }
 Rect2d Rect2d::perkoordinata(Rect2d& rhs)

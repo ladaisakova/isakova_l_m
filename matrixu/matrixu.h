@@ -3,6 +3,12 @@
 
 #include <iostream>
 #include <cstddef>
+struct Object
+{
+    ptrdiff_t nRow_;
+    ptrdiff_t nCol_;
+    int* pdata_;
+};
 class Matrixu 
 {
 public:
@@ -14,21 +20,23 @@ public:
     }
     Matrixu()
     {
-        pdata_ = new int[nCol_*nRow_];
+        pdata_ = new int[nCol_ * nRow_];
     }
     Matrixu(const Matrixu& a) //конструктор копирования
     {
-        nCol_ = a.nCol_;
+        nCol_ = a.nCol_; // списки инициализации
         nRow_ = a.nRow_;
-        pdata_ = new int[nCol_*nRow_];
-        for (ptrdiff_t i = 0; i < nCol_*nRow_; i++)
+        pdata_ = new int[nCol_ * nRow_];
+        //Object s = { a.nRow_, a.nCol_, new int[nRow_ * nCol_] };
+        for (ptrdiff_t i = 0; i < nCol_ * nRow_; i += 1)
             pdata_[i] = a.pdata_[i];
     }
     Matrixu operator=(const Matrixu& a) // оператор присваивания
     {
         nCol_ = a.nCol_;
         nRow_ = a.nRow_;
-        for (ptrdiff_t i = 0; i < nCol_*nRow_; i++)
+        //Object s = { a.nRow_, a.nCol_};
+        for (ptrdiff_t i = 0; i < nCol_ * nRow_; i += 1)
         {
             a.pdata_[i] = pdata_[i];
         }
@@ -38,8 +46,9 @@ public:
     {
         nRow_ = n;
         nCol_ = k;
-        pdata_ = new int[nRow_*nCol_];
-        for (ptrdiff_t i = 0; i < nRow_*nCol_; i++)
+        pdata_ = new int[nRow_ * nCol_];
+        //Object s = { n, k, new int[nRow_ * nCol_] };
+        for (ptrdiff_t i = 0; i < nRow_ * nCol_; i += 1)
         {
             pdata_[i] = 0;
         }

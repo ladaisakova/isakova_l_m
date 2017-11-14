@@ -2,9 +2,10 @@
 #include "complex.h"
 
 
+double e = 0.0001;
 bool Complex::operator==(const Complex& rhs) const
 {
-    return (abs(re - rhs.re)<0.0001) && (abs(im - rhs.im)<0.0001);
+    return (abs(re - rhs.re) < e) && (abs(im - rhs.im) < e);
 }
 Complex::Complex(const double real)
     : Complex(real, 0.0)
@@ -54,8 +55,8 @@ Complex& Complex::operator*=(const double rhs)
 Complex& Complex::operator*=(const Complex& rhs)
 {
     double h(re);
-    re = rhs.re*h - rhs.im*im;
-    im = rhs.re*im + rhs.im*h;
+    re = rhs.re * h - rhs.im * im;
+    im = rhs.re * im + rhs.im * h;
     return *this;
 }
 
@@ -68,14 +69,14 @@ Complex& Complex::operator/=(const double rhs)
 Complex& Complex::operator/=(const Complex& rhs)
 {
     double h(re); double k(im);
-    re = (rhs.re*h + rhs.im*k) / (rhs.re*rhs.re + rhs.im*rhs.im);
-    im = (rhs.im*h - rhs.re*k) / (rhs.re*rhs.re + rhs.im*rhs.im);
+    re = (rhs.re * h + rhs.im * k) / (rhs.re * rhs.re + rhs.im * rhs.im);
+    im = (rhs.im * h - rhs.re * k) / (rhs.re * rhs.re + rhs.im * rhs.im);
     return *this;
 }
 
 Complex operator/(const Complex& lhs, const Complex& rhs)
 {
-    return Complex((rhs.re*lhs.re + rhs.im*lhs.im) / (lhs.re*lhs.re + lhs.im*lhs.im), (rhs.im*lhs.re - rhs.re*lhs.im) / (lhs.re*lhs.re + lhs.im*lhs.im));
+    return Complex((rhs.re * lhs.re + rhs.im * lhs.im) / (lhs.re * lhs.re + lhs.im * lhs.im), (rhs.im * lhs.re - rhs.re * lhs.im) / (lhs.re * lhs.re + lhs.im * lhs.im));
 }
 Complex operator+(const double k, const Complex& rhs)
 {
@@ -92,8 +93,8 @@ Complex& Complex::operator^=(const int k)
     f = atan(im / re);
     double m;
     m = pow(x, k);
-    result.re = m*cos(f*k);
-    result.im = m*sin(f*k);
+    result.re = m * cos(f * k);
+    result.im = m * sin(f * k);
     return result;
 }
 Complex Complex::sopr_()

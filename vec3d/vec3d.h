@@ -2,7 +2,6 @@
 #define VEC3D_H_0510
 
 #include <iosfwd>
-#include <iostream>
 struct Vec3d
 {
 public:

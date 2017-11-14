@@ -1,7 +1,7 @@
 #ifndef KVATERNION_H_1910
 #define KVATERNION_H_1910
 
-#include<iostream>
+#include<iosfwd>
 struct Kvaternion
 {
 public:

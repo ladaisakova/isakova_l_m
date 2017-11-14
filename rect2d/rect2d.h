@@ -1,7 +1,6 @@
 #ifndef RECT2D_H_1910
 #define RECT2D_H_1910
 #include <iosfwd>
-#include <iostream>
 
 class Rect2d
 {
