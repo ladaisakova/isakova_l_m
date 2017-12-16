@@ -1,7 +1,13 @@
 #include "priorityqueuel.h"
 
-PriorityQueueL::PriorityQueueL(const PriorityQueueL& p)
+PriorityQueueL::PriorityQueueL(const PriorityQueueL& s)
 {
+    Node *p;
+    while (p)
+    {
+        push(p->data_);
+        p = p->pNext_;
+    }
 }
 PriorityQueueL PriorityQueueL::operator=(const PriorityQueueL& p)
 {

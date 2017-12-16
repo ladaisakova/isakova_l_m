@@ -1,34 +1,52 @@
 #include "stackl.h"
 StackL::StackL(const StackL& a)
 {
-    StackL s;
-    Node* temp = a.pHead_;
-    while (temp != nullptr)
+    Node* pCopyFrom(a.pHead_->pNext_);
+    Node* pCopyTo = new Node(nullptr, a.pHead_->data_);
+    pHead_ = pCopyTo;
+    while (pCopyFrom != nullptr)
     {
-        s.push(temp->data_);
-        temp = temp->pNext_;
-    }
-    temp = s.pHead_;
-    while (temp != nullptr)
-    {
-        push(temp->data_);
-        temp = temp->pNext_;
+        pCopyTo->pNext_ = new Node(nullptr, pCopyFrom->data_);
+        pCopyTo = pCopyTo->pNext_;
+        pCopyFrom = pCopyFrom->pNext_;
     }
 }
 StackL& StackL::operator=(const StackL& a)
 {
-    StackL s;
-    Node* temp = a.pHead_;
-    while (temp != nullptr)
+    Node* pCopyTo = pHead_;
+    Node* pCopyFrom = a.pHead_;
+    while ((pCopyTo->pNext_ != nullptr) && (pCopyFrom->pNext_ != nullptr))
     {
-        s.push(temp->data_);
-        temp = temp->pNext_;
+        pCopyTo->data_ = pCopyFrom->data_;
+        pCopyTo = pCopyTo->pNext_;
+        pCopyFrom = pCopyFrom->pNext_;
     }
-    temp = s.pHead_;
-    while (temp != nullptr)
+    if ((pCopyTo->pNext_ == nullptr) && (pCopyFrom->pNext_ != nullptr))
     {
-        push(temp->data_);
-        temp = temp->pNext_;
+        pCopyTo->data_ = pCopyFrom->data_;
+        pCopyFrom = pCopyFrom->pNext_;
+        while (pCopyFrom != nullptr)
+        {
+            pCopyTo->pNext_ = new Node(nullptr, pCopyFrom->data_);
+            pCopyTo = pCopyTo->pNext_;
+            pCopyFrom = pCopyFrom->pNext_;
+        }
+    }
+    else
+    {
+        if ((pCopyFrom->pNext_ == nullptr) && (pCopyTo->pNext_ != nullptr))
+        {
+            pCopyTo->data_ = pCopyFrom->data_;
+            Node* pContinue(pCopyTo->pNext_);
+            pCopyTo->pNext_ = nullptr;
+            Node* pDelete;
+            while (pContinue != nullptr)
+            {
+                pDelete = pContinue;
+                pContinue = pDelete->pNext_;
+                delete pDelete;
+            }
+        }
     }
     return *this;
 }
