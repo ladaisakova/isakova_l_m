@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>carrotminipng.png</file>
+    </qresource>
+</RCC>
